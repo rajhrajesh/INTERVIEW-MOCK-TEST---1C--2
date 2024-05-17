@@ -1,0 +1,50 @@
+.spinner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+ul {
+  display: flex;
+  flex-wrap: wrap;
+  border: 1px solid red;
+}
+
+.course-heading {
+  font-family: 'Bree Serif';
+  margin: 10px;
+}
+
+.error {
+  color: #1e293b;
+  font-size: 35px;
+}
+
+.err-des {
+  color: #475569;
+  font-size: 20px;
+}
+
+.failure-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.button {
+  background-color: #4656a1;
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 15px;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 12px;
+  padding-right: 12px;
+  border-radius: 5px;
+  width: 75px;
+}
